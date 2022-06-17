@@ -36,6 +36,68 @@ html,body{
     background-color: #C71585 !important ;
     color: white;
 }
+
+.underline{
+    color: #C71585;
+}
+
+a:hover{
+    color: #C71585;
+}
+.admin-header{
+    display: flex;
+    justify-content: center;
+    font-size: 4.5vw;
+    color: #C71585;
+}
+
+.admin-form{
+    background-color: rgba(128, 128, 128, 0.035);
+    height: 730px;
+}
+
+
+.admin-note{
+    color: #C71585;
+    font-size: 1vw;
+    display: flex;
+    justify-content: left;
+}
+
+.btn-submit{
+    background-color: #C71585;
+    margin-left: 105px;
+    font-size: 1.25em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    width: 38%;
+    height: 2.7vw;
+    border-radius: 1.5em;
+    border: 2px solid #C71585;
+    box-shadow: 3px 3px 5px #c7158683,
+               -3px -3px 5px #c7158680;
+}
+
+.admin{
+    margin-left: 460px;
+    margin-right: 460px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    box-shadow: 6px 6px 9px rgba(128, 128, 128, 0.378),
+               -6px -6px 9px rgba(128, 128, 128, 0.364);
+    background-color: rgba(128, 128, 128, 0.022);
+}
+
+
+
+#admin-detail{
+    border-radius: 1.5em;
+    border: 1px solid #C71585;
+    box-shadow: 2px 2px 3px #C71585,
+               -2px -2px 3px #C71585;
+}
 /*.circle-two{
     height: 120px;
     width: 120px;
@@ -142,6 +204,12 @@ h6{
     color:#C71585;
     padding-top: 0.5vw;
     font-family: 'Times New Roman';
+    border-bottom: none;
+    text-decoration: none;
+}
+
+#about.dropdown-toggle::after{
+    border: none;
 }
 
 #brand{
@@ -194,7 +262,7 @@ a {
     position: relative;
     padding: 0.2em 0;
 }
-a::after{
+/*a::after{
     content: '';
     position:absolute;
     left: 0;
@@ -204,7 +272,7 @@ a::after{
     background-color:  white;
     opacity: 0;
     transition: opacity 300ms, transform 300ms;
-}
+}*/
 
 
 
@@ -258,6 +326,8 @@ hr{
 
 .drop-one{
     color: white;
+    text-decoration: none;
+    border-bottom: 2px dotted #fff;
 }
 
 #slider{

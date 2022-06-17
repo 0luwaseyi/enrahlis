@@ -39,6 +39,16 @@ app.get('/product', (req, res)=>{
     res.render("product.ejs")
 })
 
+app.get('/admin', (req,res)=>{
+    res.render("admin.ejs")
+})
+
+app.post('/admin', (req,res)=>{
+    const {email, password} = req.body;
+    res.send("your login is successful!")
+    console.log(email,password)
+})
+
 app.post('/', (req, res)=>{
     const {name, tel, email, message} = req.body;
     db('contacts').insert({
